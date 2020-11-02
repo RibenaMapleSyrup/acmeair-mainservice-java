@@ -8,7 +8,7 @@ jdk:
 
 before_install:
   - export BUILD_TOOL="docker"
-  - export IMAGE_PREFIX="quay.io/repository/seangreaves"
+  - export IMAGE_PREFIX="quay.io/seangreaves"
   - export ACME_SERVICE_NAME="acmeair-mainservice-java"
   - export ACME_VERSION="1.1"
   - sudo apt-get update
